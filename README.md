@@ -1,0 +1,2 @@
+# Unexpected Type Juggling in PHP Arithmetic
+This example demonstrates a common error in PHP related to type juggling when performing arithmetic operations.  PHP's loose typing can lead to unexpected behavior if you're not careful about data types. The `calculateSum` function, when passed an array containing both numbers and string-like numbers, will not produce the intended result. The bug lies in the assumption that all elements of `$numbers` will be treated as integers within the sum.
